@@ -1,0 +1,59 @@
+body {
+    max-width: 70%;
+
+    margin: auto;
+}
+h1 {
+    color: rgb(27, 187, 83);
+}
+h3 {
+    color: rgb(116, 144, 63);
+}
+ul {
+    color: rgb(144, 25, 204);
+}
+ol,
+#beef,
+#cheese,
+#chicken,
+#crab,
+#intro,
+#sausage,
+#top {
+    color: rgba(17, 157, 164, 0.77);
+}
+
+.subtitle-text {
+    color: rgba(152, 103, 11, 0.589);
+}
+
+.intro-chapter > h2 {
+    color: red;
+}
+.text-chicken ~ ul {
+    color: rgb(18, 7, 171);
+}
+#beef ~ p {
+    color: rgb(153, 26, 73);
+}
+.crab-sticks + p {
+    color: rgb(200, 118, 4);
+}
+.text-chicken {
+    color: rgb(4, 99, 140);
+}
+.text-sausage {
+    color: rgb(160, 120, 8);
+}
+.text-cheese {
+    color: rgb(7, 154, 46);
+}
+.intro-chapter > p {
+    color: red;
+}
+p.text-crab {
+    color: rgb(121, 163, 7);
+}
+span {
+    color: rgb(134, 25, 1);
+}
